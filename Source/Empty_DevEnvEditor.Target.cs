@@ -8,8 +8,7 @@ public class Empty_DevEnvEditorTarget : TargetRules
 	public Empty_DevEnvEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		bOverrideBuildEnvironment = true;
+		DefaultBuildSettings = BuildSettingsVersion.V5;
 		ExtraModuleNames.AddRange( new string[] { "Empty_DevEnv" } );
 	}
 }
